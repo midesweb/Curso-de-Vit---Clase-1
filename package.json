@@ -1,0 +1,22 @@
+{
+  "name": "vitejs",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-legacy": "^2.3.0",
+    "postcss-nesting": "^10.2.0",
+    "sass": "^1.55.0",
+    "terser": "^5.15.1",
+    "vite": "^3.2.0"
+  },
+  "dependencies": {
+    "@dile/dile-info-box": "^0.0.19",
+    "@spectrum-web-components/color-wheel": "^0.4.3"
+  }
+}
